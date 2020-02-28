@@ -1,12 +1,14 @@
 # Corpus collection POC (proof-of-concept)
 
-## Python code to collect Chinese texts from Weibo is found below:
+## Demo codes
+
+### Python code to collect Chinese texts from Weibo is found below:
 
 https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
 
-## Python code to collect English and French texts from Twitter is found here: 
+### Python code to collect English and French texts from Twitter is found here: 
 
-https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/twitter_apple_scrap_string.csv
+https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
 
 ## Step-by-step algorithm to create the corpus
 
