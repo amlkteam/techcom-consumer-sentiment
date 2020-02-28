@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 26 22:01:53 2020
 
-@author: gen80
+@author: amy
 
 weibo web-scrapping trial
 
@@ -64,7 +64,10 @@ for pair in zip(txt_snippets, from_snippets):
         content_split = re.split("</.>",content_with_tags)
         content_cleaned = []
         for s in content_split:
-            content_cleaned.append(re.sub("<[^>]+>","",s).replace("展开全文","").replace(" c","").strip())
+            #need to remove extra things at the end of paragraph. 
+            #remove "展开全文" means "unfold this truncated text to full text"
+            
+            content_cleaned.append(re.sub("<[^>]+>","",s).replace("展开全文","").strip())
         cleaned_entry = " ".join(content_cleaned)
         weibo_post_info['content'] = cleaned_entry.strip() 
         
