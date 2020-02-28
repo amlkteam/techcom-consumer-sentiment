@@ -20,7 +20,7 @@ No for our project we will not be submitting written summaries of our contributi
     
 # What is the quality of work each team member expects from themselves and each other?
 
-Each person is expected to complete the assigned work before the deadline. The quality of the code should be good with relevant document. Each line of code should include a comment so that everyone in the group understands what the code is doing. Early communication is key to make sure everyone is focused on common goals. Keep goals realistic and understand that our actions affect others in the group. Make a timeline so that the group can stay on an agreed plan for getting the project done. 
+Each person is expected to complete the assigned work before the deadline. The quality of the code should be good with relevant document. Each code chunk should include a comment so that everyone in the group understands what the code is doing. Early communication is key to make sure everyone is focused on common goals. Keep goals realistic and understand that our actions affect others in the group. Make a timeline so that the group can stay on an agreed plan for getting the project done. 
 
 # When are team members not available (e.g., evenings and Sundays because of family obligations).
 
