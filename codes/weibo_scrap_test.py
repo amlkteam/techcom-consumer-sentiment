@@ -13,6 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import csv
+import datetime
 
 temp_cookie = 'SINAGLOBAL=5226556896257.333.1582413180515; _s_tentry=www.google.com; UOR=,,www.google.com; Apache=7762854567407.076.1582780723997; ULV=1582780724577:2:2:1:7762854567407.076.1582780723997:1582413181275'
 browser_info = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'
@@ -72,8 +73,15 @@ for pair in zip(txt_snippets, from_snippets):
         weibo_post_info['content'] = cleaned_entry.strip() 
         
         #extract creation time
-        #two formats of creation time: 今天22:19|2月3日 22:19
-        weibo_post_info['datetime'] = re.findall("(?:今天|\d{2}.\d{2}.) *\d{2}:\d{2}",str(pair[1]))[0]
+        #two formats of creation time: (今天 means today)今天22:19|2月3日 22:19
+        if re.findall("今天\d{2}:\d{2}",str(pair[1])):
+            d = datetime.datetime.today()
+            today_format = str(d.year)+"-"+str(d.month)+"-"+str(d.day)
+            #print(re.findall("今天\d{2}:\d{2}",str(pair[1]))[0])
+            datetime = re.findall("今天\d{2}:\d{2}",str(pair[1]))[0].replace("今天",today_format)
+        elif re.findall("(?:\d{2}.\d{2}.) *\d{2}:\d{2}",str(pair[1])):
+            datetime = re.findall("(?:\d{2}.\d{2}.) *\d{2}:\d{2}",str(pair[1]))[0]
+        weibo_post_info['datetime'] = datetime
     except:
         continue
 
@@ -85,7 +93,7 @@ print(len(weibo_page_posts)) # about 20 entries extracted
 
 ##export to a csv file
 with open('weibo_apple_scrap_string.csv', 'a', newline='', encoding='utf-8') as csvfile:
-    fieldnames = ['username', 'content','datetime']
+    fieldnames = ['username','datetime','content']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     #writer.writeheader() #only write for the first time
