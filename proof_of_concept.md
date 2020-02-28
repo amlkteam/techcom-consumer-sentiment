@@ -8,7 +8,7 @@ https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
 
 ### Python code to collect English and French texts from Twitter is found here: 
 
-https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
+https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/tweepy_test.py
 
 ## Step-by-step algorithm to create the corpus
 
