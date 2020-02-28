@@ -2,13 +2,14 @@
 
 ## Demo codes
 
-### Python code to collect Chinese texts from Weibo is found below:
+### Python code to collect Chinese texts from Weibo is found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py)
 
-https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
+A Weibo output sample can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_apple_scrap_string.csv)
 
-### Python code to collect English and French texts from Twitter is found here: 
+### Python code to collect English and French texts from Twitter is found [here] 
+(https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/tweepy_test.py)
 
-https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/tweepy_test.py
+A Twitter output sample can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/twitter_apple_scrap_string.csv)
 
 ## Step-by-step algorithm to create the corpus
 
