@@ -27,7 +27,7 @@ https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/tweepy_test.py
 
                    write(or append) to csv file 
 
-        elif lang = Chinese:
+        elif lang == Chinese:
 
                   for each of the 5 companies:
 
