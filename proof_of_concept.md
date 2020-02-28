@@ -8,10 +8,10 @@ https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/weibo_scrap_test.py
 
 https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/twitter_apple_scrap_string.csv
 
-#Step-by-step algorithm to create the corpus
+# Step-by-step algorithm to create the corpus
 
-## run python scripts to scrap Twitter and Weibo every day within rate limits
-- if lang == En or lang == Fr:
+### 1. run python scripts to scrap Twitter and Weibo every day within rate limits
+ if lang == En or lang == Fr:
       for each of the 5 companies:
              use twitter search api with geolocation and lang argument to identify relevant tweets
              do preprocessing on tweets to extract features/metadata 
@@ -22,13 +22,14 @@ https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/twitter_apple_scrap_
              do preprocessing on tweets to extract features/metadata 
              write(or append) one csv file 
 
-## Sentiment analysis
+### 2. Sentiment analysis
 - for each sentence collected in the csv files:
        word tokenize, remove irrelevant words/stopwords
        use TextBlob/Spacy/cosine-similarity_of_word_embedding to get the sentiment polarity
 
-## Annotations
+### 3. Annotations
 - for each sentence collected in csv files:
       manually label sentiment partly by ourselves and partly by crowdsourcing
 
-## Merge and Cleanup inconsistencies
+### 4. Merge and Cleanup inconsistencies
+
