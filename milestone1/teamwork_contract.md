@@ -8,7 +8,7 @@ We will meet twice a week. Once after our Tuesday lab to devise a plan for solvi
 
 # Having meeting agenda and minutes
 
-No, but during each meeting we will jot down a summary of the discussions in our own notebooks and confirm with every group about the decisions made to ensure a clear direction.
+No, but during each meeting we will jot down a summary of the discussions in our own notebooks and confirm with every group member about the decisions made to ensure a clear direction.
 
 # Style of working
 
