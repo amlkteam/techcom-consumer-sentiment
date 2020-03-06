@@ -64,7 +64,7 @@ In the case that a Tweet displays multiple emotions or the annotator is not sure
 
 ## Further Resources
 
-Data in CSV format is available [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/serena/data/twitter_french_results_last.csv). Annotators will see data in this format. The code that produced this data can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/serena/codes/french_twitter_scraping_final.ipynb).
+Example data in CSV format is available [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/serena/sample_df.csv), created using the French portion of the corpus. Annotators will see data in this format. The code that produced this data can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/serena/sample_creation.ipynb).
 
 
 
