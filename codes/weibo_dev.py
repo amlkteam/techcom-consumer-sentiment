@@ -42,7 +42,7 @@ import sys
 import urllib
 
 # ======this returns a very readily use dictionary!=======================================================================
-keyword = "google"
+keyword = "Apple"
 #url = 'https://m.weibo.cn/api/container/getIndex?containerid=100103type%3D1%26q%3Dipad&page_type=searchall&page=2'
 
 # url = 'https://m.weibo.cn/search?containerid=100103type%3D1%26q%3DApple'
@@ -68,7 +68,7 @@ keyword = "google"
 # '微軟' 94p done on Mar4 9:58pm
 # Amazon 99p done Mar4 midnight
 # '亚马逊' 99p done Mar5 11:04
-# google -- Mar5 11:32am
+# google -- Mar5 99p 11:32am
 
 ### can use product name of Google// twitter of tw/hk Chinese
 
@@ -150,14 +150,14 @@ for i in range(0,100): #what if less than 50?
                     blogpost_dict['created_at'] = get_uniform_date(blogpost['created_at'])
                     print(blogpost['created_at'])
                     print(get_uniform_date(blogpost['created_at']))
-                    blogpost_dict['member_id'] = blogpost['mid']
+                    blogpost_dict['id'] = blogpost['mid']
                     blogpost_dict['text'] = get_cleaned_txt(blogpost['text'])
                     if 'textLength' in blogpost.keys():
                         blogpost_dict['textLength'] = blogpost['textLength']
                     else:
                         blogpost_dict['textLength'] = len(get_cleaned_txt(blogpost['text']))
                     #blogpost['retweeted_status']
-                    blogpost_dict['source'] = blogpost['source']    
+                    #blogpost_dict['source'] = blogpost['source']    
                     blogpost_dict['user'] = str(blogpost['user'])
                     blogpost_dict['verified'] = blogpost['user']['verified']
                     blogpost_dict['screen_name'] = blogpost['user']['screen_name']
