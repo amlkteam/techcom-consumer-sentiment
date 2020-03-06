@@ -4,11 +4,11 @@ The following shall serve as guidelines for annotators working on the project ti
 
 ## The Task
 
-The annotator will be presented with one Tweet at a time. The Tweet will be in one of three languages (English, French, or Chinese) and focus on one big tech company (Amazon, Microsoft, Facebook, or Apple). The annotator will read the text of the Tweet and decide if the tweet falls under one of seven categories: Very positive, positive, neutral, negative, very negative, or irrelevant. We anticipate that completing this task will require about seven to ten seconds, depending on the length of the tweet.
+The annotator will be presented with one Tweet at a time. The Tweet will be in one of three languages (English, French, or Chinese) and focus on one big tech company (Amazon, Microsoft, Facebook, or Apple). The annotator will read the text of the Tweet and decide if the tweet falls under one of six categories: Very positive, positive, neutral, negative, very negative, or irrelevant. We anticipate that completing this task will require about seven to ten seconds, depending on the length of the tweet.
 
 ## Guidelines 
 
-The following is a detailed breakdown of the seven possible categories.
+The following is a detailed breakdown of the six possible categories.
 
 #### Very Positive
 
