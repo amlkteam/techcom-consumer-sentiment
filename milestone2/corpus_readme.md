@@ -22,4 +22,6 @@ total number of documents: 6326
 
 total number of text(characters): 126217
 
+# Main Problems
+
 The main problem when it came to collecting tweets was finding a way to collect as many tweets as possible for a particular query and not just the maximum of 100. There was also the problem of the amount of time it took to collect the English tweets. For example, when it came to #Apple, it took approxamately 5 hours to collect the 54000 tweets. The third problem we came across was regarding the relevance of the tweets. A large percentage of the tweets for #Apple and other companies did not have anything to do with that company. Corpus collection from Weibo posts had the similar problem of noisy and irrelevant opinions on the company, especially for posts related to Facebook and Amazon. Many of the posts were about updates regarding a persons facebook accounts or about amazon product ads from resellers. For both twitter and weibo, get excluded tweets/posts from verified accounts because we wanted to do sentiment analysis of customers and not news organizations and other verified organizations.
