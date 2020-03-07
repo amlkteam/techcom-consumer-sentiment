@@ -8,25 +8,25 @@ The English language tweets and Chinese language Weibo posts are stored in seper
 
 ### English tweets:
 
-total number of documents: 99797 (Facebook 14183, Apple 54708, Amazon 21493, Microsoft 9413)
+Total number of documents: 99797 (Facebook 14183, Apple 54708, Amazon 21493, Microsoft 9413)
 
-total number of words: 2778807 (Facebook 495333, Apple 1323176, Amazon 645831, Microsoft 314467)
+Total number of words: 2778807 (Facebook 495333, Apple 1323176, Amazon 645831, Microsoft 314467)
 
 ### Weibo Chinese corpus:
 
-total number of documents: 2684 (Facebook 529, Apple 558, Amazon 1220, Microsoft 377)
+Total number of documents: 2684 (Facebook 529, Apple 558, Amazon 1220, Microsoft 377)
 
-total number of text(characters): 213048 (Facebook 49021, Apple 55119, Amazon 78813, Microsoft 30095)
+Total number of text(characters): 213048 (Facebook 49021, Apple 55119, Amazon 78813, Microsoft 30095)
 
 ### French tweets
 
-total number of documents: 6326 (Facebook 1245, Apple 1241, Amazon 1267	, Microsoft 1278)
+Total number of documents: 6326 (Facebook 1245, Apple 1241, Amazon 1267	, Microsoft 1278)
 
-total number of words: 126217
+Total number of words: 126217
 
-### total (English + Chinese + French) number of documents: 108,807
+### Total (English + Chinese + French) number of documents: 108,807
 
-### total (English + Chinese + French) number of words: 3,118,072
+### Total (English + Chinese + French) number of words: 3,118,072
 
 # Main Problems
 
