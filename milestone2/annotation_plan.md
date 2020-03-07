@@ -20,11 +20,11 @@ For the Chinese weibo microblogs, external annotators from the crowdsourcing pla
 
 ### Rough expectation for amount of annotations to collect in a week
 
-French tweets: about 200 annotations per hour, approximately 800 annotations in total, as it's expected annotators would spend a total of 4-5 hours in the week.
+French tweets: about 200 annotations per hour, approximately 800 annotated texts in total(each text have 2 annotations), as it's expected annotators would spend a total of 4-5 hours in the week.
 
-English tweets: about 500 annotations per hour with a total of 4-5 hours effort from each annotators, a rough total of 2000 annotations altogether.
+English tweets: about 500 annotations per hour with a total of 4-5 hours effort from each annotators, a rough total of 2000 annotated texts altogether.
 
-Chinese weibo posts: 100 annotations for each company, approximately 400 annotations in total, as Chinese texts are longer in general, and so it may take some more time to gauge sentiments. This smaller number of annotation also takes into account the $50 budget available.
+Chinese weibo posts: 100 annotated texts for each company, approximately 400 annotated texts in total, as Chinese texts are longer in general, and so it may take some more time to gauge sentiments. This smaller number of annotation also takes into account the $50 budget available.
 
 ### Quality check of annotations:
 
