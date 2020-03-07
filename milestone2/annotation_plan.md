@@ -14,7 +14,7 @@ For the Chinese Weibo microblogs, Amazon Mechanical Turk's template on sentiment
 
 For the French tweets, Serena's friends Molly Chen and Joanna Chung will do the annotations. They studied in the same French major with Serena and are both fluent in French.
 
-For the English tweets, Varun's parents will do the annotations. They are fluent in English.
+For the English tweets, Varun's parents Gopinath Tulasi and Suma Tulasi have agreed to do the annotations. They are fluent in English.
 
 For the Chinese weibo microblogs, external annotators from the crowdsourcing platform Amazon Mechanical Turk will be recruited with a paid reward for each annotation task.
 
@@ -22,7 +22,7 @@ For the Chinese weibo microblogs, external annotators from the crowdsourcing pla
 
 French tweets: about 200 annotations per hour, approximately 800 annotations in total, as it's expected annotators would spend a total of 4-5 hours in the week.
 
-English tweets: about 100-200 annotations per hour with a total of 4-5 hours effort from each annotators.
+English tweets: about 500 annotations per hour with a total of 4-5 hours effort from each annotators, a rough total of 2000 annotations altogether.
 
 Chinese weibo posts: 100 annotations for each company, approximately 400 annotations in total, as Chinese texts are longer in general, and so it may take some more time to gauge sentiments. This smaller number of annotation also takes into account the $50 budget available.
 
