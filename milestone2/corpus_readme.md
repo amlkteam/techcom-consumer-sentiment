@@ -24,9 +24,9 @@ total number of documents: 6326 (Facebook 1245, Apple 1241, Amazon 1267	, Micros
 
 total number of words: 126217
 
-### total (English + Weibo + french) number of documents: 108,807
+### total (English + Chinese + French) number of documents: 108,807
 
-### total (English + Weibo + french) number of words: 3,118,072
+### total (English + Chinese + French) number of words: 3,118,072
 
 # Main Problems
 
