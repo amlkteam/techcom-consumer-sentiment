@@ -25,9 +25,9 @@
 
 -French tweets in [one file]( https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/twitter_french_results_last.csv) 
 
--English tweets(4 CSV files) rests inside [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data)
+-English tweets(4 CSV files) rest inside [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data)
 
--Chinese Weibo posts(4 CSV files) is in [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/amylam/data/ChineseWeiboCorpus)
+-Chinese Weibo posts(4 CSV files) are in [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/amylam/data/ChineseWeiboCorpus)
 
 #### Extraction Scripts for each language:
 
