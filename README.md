@@ -22,7 +22,7 @@
 -Annotator Guidelines [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/annotator_guidelines.md)
 
 -Annotation Tool demo [in excel file format](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/sample_df_excel.xlsx)
-a screen capture is found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone2/CSV_annotation_dropdown_demo.png) in case you cannot open the excel file
+(a screen capture is found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone2/CSV_annotation_dropdown_demo.png) in case you cannot open the excel file) 
 
 #### Corpus outputs in CSV format:
 
