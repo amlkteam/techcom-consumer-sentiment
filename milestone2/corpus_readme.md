@@ -4,7 +4,7 @@ For the corpus collection task, Varun collected English language tweets and Sere
 
 The English language tweets and Chinese language Weibo posts are stored in seperate csv files for each company. For some English language company csv files, the size of the file exceeded 25mb and needed to stored on Google Drive. The link to the those csv files have been shared in company data markdown file. All the french tweets for the four companies are in a single csv file. 
 
-# Total tweets
+# Corpus 
 
 ### English tweets:
 
