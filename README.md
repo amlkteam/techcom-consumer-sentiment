@@ -15,7 +15,7 @@
  
 ## Milestone 2 deliverables:
 
--Corpus + explanation [here] (https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone2/corpus_readme.md)
+-Corpus + explanation [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone2/corpus_readme.md)
 
 -Annotation Plan [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone2/annotation_plan.md)
 
@@ -25,15 +25,15 @@
 
 -French tweets in [one file]( https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/twitter_french_results_last.csv) 
 
--English tweets rests inside [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data)
+-English tweets(4 CSV files) rests inside [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data)
 
--Chinese Weibo posts is in [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/amylam/data/ChineseWeiboCorpus)
+-Chinese Weibo posts(4 CSV files) is in [this folder](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/amylam/data/ChineseWeiboCorpus)
 
 #### Extraction Scripts for each language:
 
 -English tweets extraction script [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/codes/english_tweets.ipynb)
 
--French tweets extraction scripts [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/codes/french_twitter_scraping_final.ipynb)
+-French tweets extraction script [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/codes/french_twitter_scraping_final.ipynb)
 
 -Chinese Weibo Extraction script is in [here](
 https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/codes/weibo_extraction_final.py)
