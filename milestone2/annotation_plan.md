@@ -1,6 +1,7 @@
-#Annotation Plan
+# Annotation Plan
 
 ### Kinds of annotation:
+
 We will be doing labeling of (1) positive/negative sentiment on the target tech company mentioned in the tweet/Weibo microblog, and (2) if the emotion expressed is relevant to the tech company.
 
 ### Tools for annotation creation:
