@@ -2,13 +2,13 @@
 
 ### Kinds of annotation:
 
-We will be doing labeling of (1) positive/negative sentiment on the target tech company mentioned in the tweet/Weibo microblog, and (2) if the emotion expressed is relevant to the tech company.
+We will be doing labeling of (1) positive/negative sentiment on the target tech company mentioned in the tweet/Weibo microblog, and (2) if the emotion expressed is related to the tech company.
 
 ### Tools for annotation creation:
 
-For the English and French tweets collected, the annotators will receive a copy of csv file that contains tweets for annotation and will label the sentiment and relevancy in a single new column, which allows 6 input labels only(Very Positive, Positive, Neutral, Negative, Very Negative, Irrelevant).
+For the English and French tweets collected, annotators will receive a copy of csv file that contains tweets for annotation and they should label the sentiment and relevancy in a single new column, which allows 6 input labels only(Very Positive, Positive, Neutral, Negative, Very Negative, Irrelevant).
 
-For the Chinese Weibo microblogs, Amazon Mechanical Turk's template on sentiment analysis task will be utilised to get annotations from outside annotators.
+For the Chinese Weibo microblogs, Amazon Mechanical Turk's template on sentiment analysis task will be utilised to get annotations from outside annotators. The same 6 labels is allowed for selection.
 
 ### Annotators:
 
@@ -30,7 +30,7 @@ Chinese weibo posts: 100 annotations for each company, approximately 400 annotat
 
 All annotators will be given an annotation guideline with detailed examples on the 6 labels of annotation as training.
 
-On Mechanical Turk, there will be worker restriction that only naive Chinese speaker can do the annotation tasks. 
+On Mechanical Turk, there will be one worker restriction that only naive Chinese speaker can do the annotation tasks. 
 
 Link to annotation guideline is available [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/serena/annotator_guidelines.md)
 
