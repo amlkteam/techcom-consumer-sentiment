@@ -1,0 +1,11 @@
+# Weibo annotations+explanation
+
+Links to:
+1.Intermediary annotation file produced during the annotation process -- a [csv file downloaded from mechanical turk](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/MTurk_Batch_3948609_full2074_results.csv)
+2.Final version of Weibo annotations that has single best annotation for each Weibo post is [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Weibo_407annotations_final.csv)
+The file is formatted to have the following columns in order: []
+
+
+3. Code that prepared data for annotation
+
+Code that produced the final annotations rests in [this Jupyter notebook](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Weibo_prepare_final_annotations.ipynb)
