@@ -1,13 +1,13 @@
 
-Interannotator agreement study
+# Interannotator agreement study
 
-### Appropriate interannotor agreement measure: Alpha.  
+### Appropriate interannotor agreement measure we picked: Alpha  
 
-As Kappa requires the same annotators across all annotation tasks, it will not fit the case of using Amazon Mechanical Turk on Chinese Weibo data.
+As Kappa requires the same annotators across all annotation tasks, it will not fit the case of using Amazon Mechanical Turk on Chinese Weibo data. Alpha is fine to use for both cases of 1. same annotators across all tasks and 2. different combinations of annotators across different tasks. 
 
 ### Interannotator agreement scores across three languages:
 
-lang | measure with polarity_distance2|measure with polarity_distance3(less penalty on same side polarity) 
+Language | measure with polarity_distance2|measure with polarity_distance3 \n (less penalty on same side polarity) 
 ----------|----------------------------------- |----------------------------------------------------------------
 French (two annotators per task) |  0.803     |  0.813
 English (two annotators per task)|       |
@@ -18,9 +18,8 @@ The script that produces the agreement score across 3 languages is [here](https:
 
 ### Discussion:
 
-For the French and English tweets, the annotations process went quite well as Serena's friends and Varun's parents are very reliable. They are good in the the respective languages they annotate, followed annotation guidelines closely and are careful in delineating the subtle difference in sentiment such as "Very Positive" and "Positive".
+For the French and English tweets, the annotations processes went quite well as Serena's friends and Varun's parents are very reliable. They are good in the the respective languages they annotate, followed annotation guidelines closely and are careful in distinguishing the subtle difference in sentiment such as "Very Positive" and "Positive".
 
-For the Chinese Weibo posts that are put on Amazon Mechanical Turk for crowdsourcing annotations, the annotator quality is hard to ensure. Even though about 68% Weibo posts have two annotators agree on a same sentiment label, there's always a third annotator that randomly/carelessly rate it "Irrelevant" or "Neutral". Some will label many Weibo posts carries "Neutral" sentiment towards the company mentioned, while in fact they are obviously "Irrelevant", especially in the case of Facebook Weibo posts where Weibo users mentioned someone's Facebook instead of commenting on the company Facebook. 
+For the Chinese Weibo posts that are put on Amazon Mechanical Turk for crowdsourcing annotations, the annotator quality is hard to ensure. Even though about 68% Weibo posts have two annotators agree on a same sentiment label, there's always a third annotator that randomly/carelessly rate it "Irrelevant" or "Neutral". Some will label many Weibo posts as carrying "Neutral" sentiment towards the company mentioned, while in fact they are obviously "Irrelevant" to the company, especially in the case of Facebook, where Weibo users mentioned someone's Facebook instead of commenting on the Facebook company or its products. 
 
-It's hard to ensure annotator quality on Amazon Mechanical Turk. The Weibo annotation assignment requires Chinese speakers but Mechanical Turk offers very restricted worker filter. In order to use the Premium Qualification filter  "Chinese language ability: Basic", Mechanical Turk requires the assignment to hire more than 10 annotators. One workaround is to design the assignment interface to write instructions in Simplified Chinese only, so that only Chinese speakers have confidence in completing the annotations. Another quality ensurance measure is to use the basic qualifications such as HIT approval rate(e.g. set a threshold >80%), but that cannot filter out random clickers who doesn't know Chinese but want to make quite money as well. About half of the 1200(400 Weibo posts, each need 3 annotators)  annotation tasks has to be manually rejected, (with the help of velocity filter on Turk that shows WorkerID who complete an annotation taks under 10 seconds), so as to republish the tasks for others to complete.
-Still, the annotation quality is not consistent across annotators. The interannotator agreement score is still low even after excluding annotations that are done within 9 seconds. 
+It's hard to ensure annotator quality on Amazon Mechanical Turk. The Weibo annotation assignment requires Chinese speakers but Mechanical Turk offers very restricted worker filter. In order to use the Premium Qualification filter  "Chinese language ability: Basic", Mechanical Turk requires the assignment to hire more than 10 annotators. One workaround to ensure quality taken to write the assignment interface entirely in Simplified Chinese, so that only Chinese speakers have confidence in completing the annotations. Another quality ensurance measure adopted is to use the basic qualifications such as HIT approval rate(e.g. set a threshold >80%), but that also cannot completely filter out random clickers who don't know Chinese but want to make quick money(Turk has an auto-approval-within-3-days mechanism). About half of the 1200(400 Weibo posts, each need 3 annotators) annotation tasks have been rejected manually, with the help of a velocity filter on Turk that shows WorkerID who completed an annotation task within 10 seconds, so as to republish the tasks for others to complete. Still, the annotation quality is not consistent across annotators. The interannotator agreement score is still low at 0.19 even after excluding annotations that are done within 9 seconds. 
