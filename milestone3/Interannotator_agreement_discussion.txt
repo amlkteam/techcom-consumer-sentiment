@@ -1,0 +1,14 @@
+
+Interannotator agreement study
+
+### Appropriate interannotor agreement measure: Alpha.  As Kappa requires the same annotators across all annotation tasks, it will not fit the case of using Amazon Mechanical Turk on Chinese Weibo data.
+
+### Interannotator agreement scores:
+  
+
+
+It's hard to ensure annotator quality on Amazon Mechanical Turk. This annotation assignment requires Chinese speakers but the Premium Qualification on Mechanical Turk requires the assignment to have more than 10 annotators in order to use that Premium Qualification requirement. Therefore my workaround is to design the assignment interface to write instructions in Simplified Chinese only, so that only Chinese speakers will have confidence in completing the annotations. Yet, the basic qualifications such as HIT approval rate(e.g. set a threshold >80%) cannot filter out random clickers who doesn't know Chinese but want to make quite money. I have to reject about half of the 1200 annotation tasks, so as to republish the relevant tasks.
+
+
+
+I have to reject about half of the 1200 annotation tasks(400 Weibo posts, each need 3 annotators) one by one manually(with the help of velocity filter on Turk that shows WorkerID who complete an annotation taks under 10 seconds), so as to republish the relevant tasks. And still the annotation quality is not consistent across annotators. Some will label many Weibo posts carries "Neutral" sentiment towards the company mentioned while in fact they are obviously "Irrelevant", especially in the case of Facebook Weibo posts where Weibo users mentioned someone's Facebook instead of making a comment on Facebook. The interannotator agreement score is still low even after excluding annotations that are done within 9 seconds. 
