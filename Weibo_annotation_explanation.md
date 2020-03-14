@@ -4,9 +4,7 @@
 
 1.Intermediary annotation file produced during the annotation process -- a [csvfile downloaded from Mechanical turk](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/MTurk_Batch_3948609_full2074_results.csv)
 
-2.Final version of Weibo annotations that has single best annotation for each Weibo post is [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/Weibo_final_annotations.csv). 
-
-This file is formatted to have the following columns in order: created_at,id,Text,lang,user_info,Company,FinalLabel
+2.Final version of Weibo annotations that has single best annotation for each Weibo post is [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/Weibo_final_annotations.csv). This file is formatted to have the following columns in order: created_at,id,Text,lang,user_info,Company,FinalLabel
 
 3. Code that prepared data for annotation is in [this Jupyter notebook](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/M_Turk_csvtransform.ipynb)
 
