@@ -1,0 +1,16 @@
+# Weibo annotations+explanation
+
+Links to:
+1.Intermediary annotation file produced during the annotation process -- a [csv file downloaded from mechanical turk](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/MTurk_Batch_3948609_full2074_results.csv)
+2.Final version of Weibo annotations that has single best annotation for each Weibo post is [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Weibo_final_annotations.csv)
+
+The file is formatted to have the following columns in order: created_at,id,Text,lang,user_info,Company,FinalLabel
+
+3. Code that prepared data for annotation is in [this Jupyter notebook](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/M_Turk_csvtransform.ipynb)
+
+4. Code that produced the final annotations rests in [this Jupyter notebook](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Weibo_prepare_final_annotations.ipynb)
+
+5. Discussion of the annotation process: It's hard to ensure annotator quality on Amazon Mechanical Turk. This annotation assignment requires Chinese speakers but the Premium Qualification on Mechanical Turk requires the assignment to have more than 10 annotators in order to use that Premium Qualification requirement. Therefore my workaround is to design the assignment interface to write instructions in Simplified Chinese only, so that only Chinese speakers will have confidence in completing the annotations. Yet, the basic qualifications such as HIT approval rate(e.g. set a threshold >80%) cannot filter out random clickers who doesn't know Chinese. I have to reject about half of the 1200 annotation tasks, so as to republish the relevant tasks.
+
+
+ 
