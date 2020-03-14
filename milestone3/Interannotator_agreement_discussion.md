@@ -7,7 +7,7 @@ As Kappa requires the same annotators across all annotation tasks, it will not f
 
 ### Interannotator agreement scores across three languages:
 
-Language | measure with polarity_distance2|measure with polarity_distance3 \n (less penalty on same side polarity) 
+Language | measure with polarity_distance2|polarity_distance3(less penalty on same side polarity) 
 ----------|----------------------------------- |----------------------------------------------------------------
 French (two annotators per task) |  0.803     |  0.813
 English (two annotators per task)|       |
