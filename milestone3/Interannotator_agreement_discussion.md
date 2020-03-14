@@ -7,12 +7,12 @@ As Kappa requires the same annotators across all annotation tasks, it will not f
 
 ### Interannotator agreement scores across three languages:
 
-Language | measure with polarity_distance2|polarity_distance3(less penalty on same side polarity) 
-----------|----------------------------------- |----------------------------------------------------------------
-French (two annotators per task) |  0.803     |  0.813
-English (two annotators per task)|       |
-Chinese (three annotators per task)|   0.191    |  0.211
-Overall |       |
+Language | measure with polarity_distance2|
+----------|----------------------------------- |
+French (two annotators per task) |  0.803     | 
+English (two annotators per task)|   0.7805    |
+Chinese (three annotators per task)|   0.191    | 
+Overall (taking an average of 3 scores above) |   0.5915    |
 
 The script that produces the agreement score across 3 languages is [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Interannotator_agreement_Weibo_filtered.ipynb)
 
