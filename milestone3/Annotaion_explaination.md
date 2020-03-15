@@ -24,7 +24,7 @@ Annotator 2 file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_V
 
 ### Chinese Annotation Files
 
-Annotator files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/MTurk_Batch_3948609_full2074_results.csv)
+Annotator file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/MTurk_Batch_3948609_full2074_results.csv)
 
 #### Combined best Chinese Annotation file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/Weibo_final_annotations.csv)
 
