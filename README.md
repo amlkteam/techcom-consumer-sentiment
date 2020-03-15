@@ -41,3 +41,11 @@
 -Chinese Weibo Extraction script is in [here](
 https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/codes/weibo_extraction_final.py)
 
+## Milestone 3 deliverables:
+
+-Annotation + explanation + code [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/Annotaion_explaination.md)
+
+-Interannotator agreement study (https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/Interannotator_agreement_discussion.md)
+
+-Plan for the interface [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/plan_for_interface.ipynb)
+
