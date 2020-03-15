@@ -30,9 +30,9 @@ Annotator files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT
 
 ## Code
 
-Code used to prepare Chinese annotation can be found [here]
+Code used to prepare Chinese annotation can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/M_Turk_csvtransform.ipynb)
 
-Code used to convert the raw annotation into the final annotation can be found [here]
+Code used to convert the raw annotation into the final annotation can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/milestone3/Weibo_prepare_final_annotations.ipynb) and [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/combining_annotation_files.ipynb)
 
 ## Discussion
 
