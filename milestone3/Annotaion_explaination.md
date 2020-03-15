@@ -4,27 +4,29 @@
 
 ### English Annotation Files
 
-Annotator 1 files can be found [here]
+Annotator 1 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data/English_annot1)
 
-Annotator 2 files can be found [here]
+Combined Annotator 1 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot1_eng.xlsx)
 
-#### Combined English Annotation file can be found [here]
+Annotator 2 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data/English_annot2)
+
+Combined Annotator 2 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot2_eng.xlsx)
+
+#### Combined best English Annotation file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/final_annotations_english.csv)
 
 ### French Annotation Files
 
-Annotator 1 file can be found [here]
+Annotator 1 file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/to_annotate_joanna_finished.csv)
 
-Annotator 2 file can be found [here]
+Annotator 2 file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/to_annotate_molly_finished.csv)
 
-#### Combined French Annotation file can be found [here]
+#### Combined best French Annotation file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/final_anotations_french.csv)
 
 ### Chinese Annotation Files
 
-Annotator 1 files can be found [here]
+Annotator files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/MTurk_Batch_3948609_full2074_results.csv)
 
-Annotator 2 files can be found [here]
-
-#### Combined Chinese Annotation file can be found [here]
+#### Combined best Chinese Annotation file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/data/ChineseWeiboCorpus/Weibo_final_annotations.csv)
 
 ## Code
 
