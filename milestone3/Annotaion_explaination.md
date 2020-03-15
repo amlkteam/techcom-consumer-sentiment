@@ -6,11 +6,11 @@
 
 Annotator 1 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data/English_annot1)
 
-Combined Annotator 1 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot1_eng.xlsx)
+Combined Annotator 1 file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot1_eng.xlsx)
 
 Annotator 2 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/tree/master/data/English_annot2)
 
-Combined Annotator 2 files can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot2_eng.xlsx)
+Combined Annotator 2 file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/comb_annot2_eng.xlsx)
 
 #### Combined best English Annotation file can be found [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/data/final_annotations_english.csv)
 
