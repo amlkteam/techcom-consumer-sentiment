@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <script language = "javascript" type = "text/javascript" src = "frontend.js"> </script>
+    </head>
+    <link rel = "stylesheet" type = "text/css" href = "frontend.css">
+    <link rel = "stylesheet"  href="https://fonts.googleapis.com/css?family=Abel|Baloo+2|Dosis&display=swap" rel="stylesheet"> 
+    <body>
+        <h1 class = "header" id = "header"> A Sentiment Analysis of Big Tech</h1>
+        <h4 class = "intro" id = "intro" > In this project, we present an analysis of a corpus of tweets / blogs about four Big Tech companies: <b>Apple, Amazon, Facebook, and Microsoft. </b> <br><br> In particular, we look at how they are perceived on social media, drawing from English and French tweets on Twitter and Chinese blog posts on Weibo. The goal of this project is to understand how consumers perceive these companies and whether there are noticeable differences across languages and countries. We hope that you find these results interesting and enlightening. <br><br> Happy exploring!</h4>
+        <div class = "row">
+            <div class = "sidebar"> 
+                <p class = "instructions2" id = "instructions2"><b>How to use this corpus: </b><br><br> 
+                <p class = "instructions" id = "instructions"> There are three ways to access this corpus. Under 'Results Type', You can pick one of HTML table, bar chart, or pie chart. <br><br>If you pick <b>Table,</b> you can input a search term into the Keyword Search box below, and apply as many filters as you wish. If you do not choose any of the filters, the default is that all languages, companies, and sentiments will be included. <br> <br> If you pick <b> Bar Chart,</b> three bar charts will appear. If you pick <b> Pie Chart,</b> the resulting visualizations will be organized according to company, and you can use the buttons at the top to toggle between them.</p>
+                <br>
+                <p class = "text" style="font-size:26"> ·  ·  ·   ·   Results Type  ·  ·  ·   ·  </p>
+                <form id = "form" action = "/">
+                <input type="radio" id = "radiotable" name="output" value="table" checked><label id="inputtypes" for="radiotable"> Table </label><br>
+                <input type="radio" id = "radiobar" name="output" value="barchart"><label id="inputtypes" for = "radiobar"> Bar Chart </label><br>
+                <input type="radio" id = "radiopie" name="output" value="piechart"><label id="inputtypes"for = "radiopie" > Pie Chart </label><br><br>
+                <p class = "text" style="font-size:26">  ·  ·  · Keyword Search ·  ·  · </p>
+                
+                <input type = "text" id = "textbox" name = "search" style="width:267px;"> 
+                <br><br>
+                <p class = "text" style="font-size:26">  ·  ·  ·  ·  ·  ·  · Filters ·  ·  ·  ·  ·  ·  ·  </p>
+                <p class = "text" style="font-size:20"> · Language · </p>
+            <input type = "checkbox" id = "checkbox1" name = "lang" value = "en"><label id="inputtypes" for = "checkbox1"> English  </label><br>
+            <input type = "checkbox" id = "checkbox2" name = "lang" value = "fr"><label id="inputtypes" for = "checkbox2"> French  </label><br>
+            <input type = "checkbox" id = "checkbox3" name = "lang" value = "zh"><label id="inputtypes" for = "checkbox3"> Chinese  </label>  
+            <br>
+            <p class = "text" style="font-size:20"> · Company · </p>
+            <input type = "checkbox" id = "checkbox4" name = "comp" value = "Apple"><label id="inputtypes" for = "checkbox4"> Apple </label>  <br>
+            <input type = "checkbox" id = "checkbox5" name = "comp" value = "Amazon"><label id="inputtypes" for = "checkbox5"> Amazon </label>  <br>
+            <input type = "checkbox" id = "checkbox6" name = "comp" value = "Facebook"><label id="inputtypes" for = "checkbox6"> Facebook </label>  <br>
+            <input type = "checkbox" id = "checkbox7" name = "comp" value = "Microsoft"><label id="inputtypes" for = "checkbox7"> Microsoft </label>  
+            <br>
+            <p class = "text" style="font-size:20"> · Sentiment · </p>
+            <input type = "checkbox" id = "checkbox8" name = "senti" value = "vps"><label id="inputtypes" for = "checkbox8"> Very Positive </label>  <br>
+            <input type = "checkbox" id = "checkbox9" name = "senti" value = "pos"><label id="inputtypes" for = "checkbox9"> Positive </label>  <br>
+            <input type = "checkbox" id = "checkbox10" name = "senti" value = "neu"><label id="inputtypes" for = "checkbox10"> Neutral </label>  <br>
+            <input type = "checkbox" id = "checkbox11" name = "senti" value = "neg"><label id="inputtypes" for = "checkbox11"> Negative </label>  <br>
+            <input type = "checkbox" id = "checkbox12" name = "senti" value = "vng"><label id="inputtypes" for = "checkbox12"> Very Negative </label> 
+            <br>
+            <br>
+            <br>
+            <!-- <input type = "button" name = "submit" style="width:75px; height:30px;font-size:14"> </input> -->
+            <button type = "button" name = "submit2" onclick = "check_empty();" style="width:267px; height:30px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;"> Go! </button>
+        </form>
+    </div>
+    <div class="barcharts" id="barcharts"> 
+        <div class="w3-container">
+    <div class="w3-bar w3-black" style = "padding-top: 10px;text-align: center;">
+            <button class="w3-bar-item w3-button" onclick="openTab('All Companies')" style="width:150px; height:40px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;">All Companies</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Amazon')" style="width:150px; height:40px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;">Amazon</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Apple')" style="width:150px; height:40px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;">Apple</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Facebook')" style="width:150px; height:40px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;">Facebook</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Microsoft')" style="width:150px; height:40px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;">Microsoft</button>
+    </div>
+    <div id="All Companies" class="w3-container tab" style = "text-align: center;">
+        <p class = "textnone" style="font-size:26;margin-left:26px;padding-left:20px;text-align:center"> All Companies </p>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/All_All.png?token=AAAAPK5GR2APAQ5LMUQAJIC6P4E2S'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/en_All.png?token=AAAAPK62XF6OZDMDOUNO2Y26P4E4C'></img><br>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/fr_All.png?token=AAAAPK2MGG3N6TZ76SXCBE26P4E5M'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/zh_All.png?token=AAAAPK5OSDJBPPO5OGFBOVS6P4E6S'></img>
+    </div>
+    <div id="Amazon" class="w3-container tab" style="display:none;text-align: center;">
+        <p class = "textnone" style="font-size:26;margin-left:26px;padding-left:20px;text-align:center"> Amazon </p>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/All_Amazon.png?token=AAAAPK74A6T7OGHPMQYVQZ26P6HOI'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/en_Amazon.png?token=AAAAPK7XPWBP34RWMOL5AKK6P6HRS'></img><br>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/fr_Amazon.png?token=AAAAPKY5ATJNYSVCGQLEQZS6P6HSW'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/zh_Amazon.png?token=AAAAPKZBGXMGRB5X5FQRY5C6P6HTU'></img>
+    </div>
+    <div id="Apple" class="w3-container tab" style="display:none;text-align: center;">
+        <p class = "textnone" style="font-size:26;margin-left:26px;padding-left:20px;text-align:center"> Apple </p>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/All_Apple.png?token=AAAAPK5736TC35XBTEWZDWC6P6HWW'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/en_Apple.png?token=AAAAPK5SO6W3NR7AC7CFWPS6P6HYU'></img><br>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/fr_Apple.png?token=AAAAPK5QXLKURCDHALGOW7K6P6H2Q'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/zh_Apple.png?token=AAAAPK7K2QMYKGPLYCBREVS6P6H4G'></img>
+    </div>
+    <div id="Facebook" class="w3-container tab" style="display:none;text-align: center;">
+        <p class = "textnone" style="font-size:26;margin-left:26px;padding-left:20px;text-align:center"> Facebook </p>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/All_Facebook.png?token=AAAAPK35O7Q4O4YMERRHZFS6P6H52'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/en_Facebook.png?token=AAAAPKZRCX25JPFDFPBJ5AC6P6H64'></img><br>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/fr_Facebook.png?token=AAAAPK3JW7YC45EVGCVWCZS6P6IAK'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/zh_Facebook.png?token=AAAAPK7B2D57YLFCFI26SAK6P6IBG'></img>
+    </div>
+    <div id="Microsoft" class="w3-container tab" style="display:none;text-align: center;">
+        <p class = "textnone" style="font-size:26;margin-left:26px;padding-left:20px;text-align:center"> Microsoft </p>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/All_Microsoft.png?token=AAAAPK3CYGBZM4SN3R4XN5K6P6ICQ'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/en_Microsoft.png?token=AAAAPK4MCLY5Y2GZEDMT4ZK6P6ID4'></img><br>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/fr_Microsoft.png?token=AAAAPK3P3J5QZ2YY25KODMC6P6IE2'></img>
+        <img class = "piechart" src='https://raw.github.ubc.ca/amlk8913/SH_VT_AL_public/master/pie_images/zh_Microsoft.png?token=AAAAPKZ6GZENLMC6L56JLWK6P6IF2'></img>
+</div>
+</div>
+    </div>
+    </body>
+</html>

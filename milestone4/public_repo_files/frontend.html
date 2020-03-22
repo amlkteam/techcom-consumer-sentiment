@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <script language = "javascript" type = "text/javascript" src = "frontend.js"> </script>
+    </head>
+    <link rel = "stylesheet" type = "text/css" href = "frontend.css">
+    <link rel = "stylesheet"  href="https://fonts.googleapis.com/css?family=Abel|Baloo+2|Dosis&display=swap" rel="stylesheet"> 
+    <body>
+        <h1 class = "header" id = "header"> A Sentiment Analysis of Big Tech</h1>
+        <h4 class = "intro" id = "intro" > In this project, we present an analysis of a corpus of tweets / blogs about four Big Tech companies: <b>Apple, Amazon, Facebook, and Microsoft. </b> <br><br> In particular, we look at how they are perceived on social media, drawing from English and French tweets on Twitter and Chinese blog posts on Weibo. The goal of this project is to understand how consumers perceive these companies and whether there are noticeable differences across languages and countries. We hope that you find these results interesting and enlightening. <br><br> Happy exploring!</h4>
+        <div class = "row">
+            <div class = "sidebar"> 
+
+                <br>
+                <p class = "text" style="font-size:26"> ·  ·  ·   ·   Results Type  ·  ·  ·   ·  </p>
+                <form id = "form" action = "/">
+                <input type="radio" id = "radiotable" name="output" value="table" checked><label id="inputtypes" for="radiotable"> Table </label><br>
+                <input type="radio" id = "radiobar" name="output" value="barchart"><label id="inputtypes" for = "radiobar"> Bar Chart </label><br>
+                <input type="radio" id = "radiopie" name="output" value="piechart"><label id="inputtypes"for = "radiopie" > Pie Chart </label><br><br>
+                <p class = "text" style="font-size:26">  ·  ·  · Keyword Search ·  ·  · </p>
+                
+                <input type = "text" id = "textbox" name = "search" style="width:267px;"> 
+                <br><br>
+                <p class = "text" style="font-size:26">  ·  ·  ·  ·  ·  ·  · Filters ·  ·  ·  ·  ·  ·  ·  </p>
+                <p class = "text" style="font-size:20"> · Language · </p>
+            <input type = "checkbox" id = "checkbox1" name = "lang" value = "en"><label id="inputtypes" for = "checkbox1"> English  </label><br>
+            <input type = "checkbox" id = "checkbox2" name = "lang" value = "fr"><label id="inputtypes" for = "checkbox2"> French  </label><br>
+            <input type = "checkbox" id = "checkbox3" name = "lang" value = "zh"><label id="inputtypes" for = "checkbox3"> Chinese  </label>  
+            <br>
+            <p class = "text" style="font-size:20"> · Company · </p>
+            <input type = "checkbox" id = "checkbox4" name = "comp" value = "Apple"><label id="inputtypes" for = "checkbox4"> Apple </label>  <br>
+            <input type = "checkbox" id = "checkbox5" name = "comp" value = "Amazon"><label id="inputtypes" for = "checkbox5"> Amazon </label>  <br>
+            <input type = "checkbox" id = "checkbox6" name = "comp" value = "Facebook"><label id="inputtypes" for = "checkbox6"> Facebook </label>  <br>
+            <input type = "checkbox" id = "checkbox7" name = "comp" value = "Microsoft"><label id="inputtypes" for = "checkbox7"> Microsoft </label>  
+            <br>
+            <p class = "text" style="font-size:20"> · Sentiment · </p>
+            <input type = "checkbox" id = "checkbox8" name = "senti" value = "vps"><label id="inputtypes" for = "checkbox8"> Very Positive </label>  <br>
+            <input type = "checkbox" id = "checkbox9" name = "senti" value = "pos"><label id="inputtypes" for = "checkbox9"> Positive </label>  <br>
+            <input type = "checkbox" id = "checkbox10" name = "senti" value = "neu"><label id="inputtypes" for = "checkbox10"> Neutral </label>  <br>
+            <input type = "checkbox" id = "checkbox11" name = "senti" value = "neg"><label id="inputtypes" for = "checkbox11"> Negative </label>  <br>
+            <input type = "checkbox" id = "checkbox12" name = "senti" value = "vng"><label id="inputtypes" for = "checkbox12"> Very Negative </label> 
+            <br>
+            <br>
+            <br>
+            <!-- <input type = "button" name = "submit" style="width:75px; height:30px;font-size:14"> </input> -->
+            <button type = "button" name = "submit2" onclick = "check_empty();" style="width:267px; height:30px;font-size:18; color: #565f7e; font-family: 'Dosis', sans-serif;"> Go! </button>
+        </form>
+    </div>
+    <div class="results" id="results">
+            <br> 
+            <div class = "textnone"> Your search results will appear here. Enter a search term to get started! <br><br>
+
+                <p class = "instructions2" id = "instructions2"><b>How to use this corpus: </b></p><br> 
+                <p class = "instructions" id = "instructions"> There are three ways to access this corpus. Under 'Results Type', You can pick one of HTML table, bar chart, or pie chart. <br><br>If you pick <b>Table,</b> you can input a search term into the Keyword Search box below, and apply as many filters as you wish. <br> If you do not choose any of the filters, the default is that all languages, companies, and sentiments will be included. <br> <br> If you pick <b> Bar Chart,</b> three bar charts will appear.          <br> <br>  If you pick <b> Pie Chart,</b> the resulting visualizations will be organized according to company,<br> and you can use the buttons at the top to toggle between them.</p>
+
+</div>
+    </div> 
+    </div>
+    </body>
+</html>
