@@ -4,9 +4,7 @@ The HTML/javascript front-end comprises of 3 html documents, 1 javascript docume
 
 #### Technical details of each frontend file:
 
-- `frontend.html`: this is the frontpage for visitors when they load up the local web server. It contains a heading; a description of our annotated tweet corpus; a left sidebar containing form elements for keyword search, filtering options(3 languages, 4 companies, and 5 sentiment scales) and links to visualizations; and a big space on the right to return query results.  
-
-A table/chart page will show up on the right in response to visitor's selection of the checkboxes on the left sidebar. One useful feature implemented in the sidebar is the automatic selection of button/checkbox when a visitor click the text next to a button/checkbox. Visitors don't need to directly click the exact position of the small button/checkbox.
+- `frontend.html`: this is the frontpage for visitors when they load up the local web server. It contains a heading; a description of our annotated tweet corpus; a left sidebar containing form elements for keyword search, filtering options(3 languages, 4 companies, and 5 sentiment scales) and links to visualizations; and a big space on the right to return query results.  <br><br> A table/chart page will show up on the right in response to visitor's selection of the checkboxes on the left sidebar. One useful feature implemented in the sidebar is the automatic selection of button/checkbox when a visitor click the text next to a button/checkbox. Visitors don't need to directly click the exact position of the small button/checkbox.
  
 - `frontend_barcharts.html`: this is the page containing 3 static bar charts of average sentiment towards the 4 tech companies across English, French and Chinese. It provides a brief conclusion of the data in the annotated corpus.
  
