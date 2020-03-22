@@ -49,3 +49,7 @@ https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/amylam/codes/weibo_extracti
 
 -Plan for the interface [here](https://github.ubc.ca/shuning3/COLX523_SH_VT_AL/blob/master/milestone3/plan_for_interface.ipynb)
 
+## Milestone 4 deliverables:
+
+-Public repo [here](https://github.ubc.ca/amlk8913/SH_VT_AL_public)
+
